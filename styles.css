@@ -1,0 +1,481 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,.after,.before{
+    box-sizing: border-box
+}
+*{
+    margin: 0;
+    padding:0;
+    border: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+main{
+    font-family:roboto;
+    scroll-behavior: smooth;
+
+}
+a{
+    text-decoration: none;
+    color: #9C9C9C;
+}
+
+.header{
+    font-family: "IBM Plex Mono";
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    backdrop-filter: brightness(25%);  
+}
+.header-list{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+}
+.header-anchor{
+    margin: 10px;
+    color: White;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.header-anchor:hover{
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.background-image{
+    background-image: url('/images/wallpaper.jpg');
+    background-size: cover;
+}
+
+.home-section{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    backdrop-filter: blur(5px); 
+    backdrop-filter: brightness(25%); 
+}
+.candidate-name{
+    font-family: "raleway";
+    margin-bottom: 20px;
+}
+.line-1{
+    position: relative;  
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 1.75s steps(16) 1s 1 normal both,
+             blinkTextCursor 500ms steps(16) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 9em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+.candidate-designation{
+    font-family: "IBM Plex Mono";
+    text-align: center;
+}
+.name-section{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height:100vh;
+    justify-content: center;
+}
+.name{
+    font-size: 2em;
+    font-family: "raleway";
+    text-align: start;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.name-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.naming{
+    padding: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-right: 30px;
+}
+
+.designation{
+    font-family: "IBM Plex Mono";
+    font-size: 16px;
+    color: Black;
+    font-weight: normal;
+    text-align: left;
+}
+.image-container-desktop{
+    background-color: aqua;
+    height: 350px;
+    width:350px;
+    border-radius: 50%;
+    background-image: url('/images/passportimage.jpg');
+    background-size: 100%;
+    background-position: center top;
+    margin-right: 30px;
+}
+.experience-section-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title-experience{
+    font-weight: bold;
+    color: Black;
+    font-family: "raleway";
+    font-size: 2em;
+}
+.experience-tabs{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.experience-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:20px 50px;
+    border-radius: 20px;
+    box-shadow: rgb(145, 145, 145) 0px 0px 10px 0px;
+    margin-bottom: 50px;
+    width: 650px;
+}
+.experience-dates{
+    font-family: "IBM Plex Mono";
+    font-size: 16px;
+    margin: 10px;
+    color:#c57d12;
+    text-align: center;
+}
+.experience-dates001{
+    font-family: "IBM Plex Mono";
+    font-size: 16px;
+    margin: 10px 0px;
+    color:#c57d12;
+    text-align: start;
+
+}
+.exp-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.exp-img{
+    background-image: url('/images/icon1.png');
+    background-size: cover;
+    width: 60px;
+    aspect-ratio: 1;
+    margin-right: 30px;
+}
+.exp-matter{
+    font-family: "raleway";
+}
+.experience-designation{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.company-name{
+    font-size: 1.25em;
+    color:#9C9C9C;
+    font-family: "IBM Plex Mono";
+    margin-bottom: 10px;
+}
+.skills-section-container{
+
+    margin-top: 50px;
+}
+.skills-heading{
+    margin-bottom: 40px;
+}
+.subheading-skills{
+    font-family: "IBM Plex Mono";
+    text-align: center;
+    margin:0px;
+    font-size: 22px;
+    color: #9C9C9C;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 20px 200px;
+}
+.skills-capsule{
+    font-family: "IBM Plex Mono";
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: Black;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    transition: 0.25s;
+    border: white solid 1px;
+}
+.skills-capsule:hover{
+    border: black solid 1px;
+    color: black;
+    background-color: white;
+    box-shadow: #9C9C9C 0px 0px 10px 0px;
+}
+.contact-section{
+    background-color: #9C9C9C;
+    padding: 50px;
+    margin-top: 50px;
+
+}
+.contact-heading{
+    font-family: "raleway";
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.linkedin-section{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    width: 175px;
+    height: 45px;
+    margin: 20px 0px;
+}
+.linkedin-section-contact{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    width: 175px;
+    height: 45px;
+    margin: 0px 20px;  
+}
+.linkedin-svg{
+    margin-right: 5px;
+    color:blue
+}
+.linkedin-text{
+    color: black;
+    font-family: "IBM Plex Mono";
+}
+.gmail-svg{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+.linkedin-section:hover{
+    box-shadow: black 0px 0px 7px 0px;
+}
+.linkedin-section-contact:hover{
+    box-shadow: white 0px 0px 7px 0px;
+    width: 180px;
+}
+.footer-div{
+    background-color: #9C9C9C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.nav-elem-container{
+    display: flex;
+    align-items: center;
+
+}
+.nav-elements-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav-elem{
+    padding: 10px 20px;
+}
+.anchor-elem{
+    transition: 0.3s;
+    color: white;
+}
+.anchor-elem:hover{
+    color:Black
+}
+.copyright-container{
+    background-color: #9C9C9C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.copyright-statement{
+    font-size: 14px;
+    font-weight: 100;
+    font-family: "IBM Plex Mono";
+
+}
+.foot-contact-items{
+    list-style: none;
+}
+.image-container-phone{
+    display: none;
+    background-color: aqua;
+    border-radius: 50%;
+    background-image: url('/images/passportimage.jpg');
+    background-size: 100%;
+    background-position: center top;
+}
+@media (max-width:1024px){
+    
+    .image-container-desktop{
+        display: none;
+    }
+    .image-container-phone{
+        display: flex;
+        margin: 30px 0px;
+        aspect-ratio: 1/1;
+        width: 90%;
+        max-width: 350px;
+    }
+    .name-section{
+        padding: 0px 20px;
+    }
+    .naming{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .skills-list{
+        padding:20px;
+    }
+    .experience-designation{
+        font-size: 24px;
+    }
+    .company-name{
+        font-size: 18px;
+    }
+
+}
+@media (max-width:720px){
+    .experience-tabs{
+        justify-content: center;
+        align-items: center;
+    }
+    .experience-one{
+        width: 90%;
+        padding:10px 10px 10px 10px;
+    }
+    .exp-img{
+        margin-right: 10px;
+    }
+    .footer-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills-capsule{
+        margin:0px 0px 5px 5px;
+    }
+    .subheading-skills{
+        font-size: 20px;
+    }
+}
+@media (max-width:420px){
+    .exp-img{
+        display: none;
+    }
+    .experience-one{
+        padding: 10px 20px;
+    }
+    .subheading-skills{
+        font-size: 18px;
+    }
+    .skills-capsule{
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .experience-designation{
+        font-size: 1.25em;
+    }
+    .company-name{
+        font-size: 1em;
+    }
+}
+@media (max-width:360px){
+    .header-anchor{
+        font-size: 14px;
+    }
+    .footer-div{
+        flex-direction: row;
+    }
+    .nav-elements-list{
+        flex-direction: column;
+        align-items: start;
+    }
+    .contacts{
+        flex-direction: column;
+    }
+    .linkedin-section-contact{
+        margin: 10px 0px;
+    }
+}
