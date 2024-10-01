@@ -51,7 +51,7 @@ h1{
     text-align: center;
 }
 .background-image{
-    background-image: url('./images/wallpaper.jpg');
+    background-image: url('https://i.postimg.cc/VLZ3P6kt/wallpaper.png');
     background-size: cover;
 }
 
@@ -144,7 +144,7 @@ h1{
     height: 350px;
     width:350px;
     border-radius: 50%;
-    background-image: url('./images/passportimage.jpg');
+    background-image: url('https://i.postimg.cc/9XZMf67z/passportimage.jpg');
     background-size: 100%;
     background-position: center top;
     margin-right: 30px;
@@ -203,7 +203,7 @@ h1{
     margin-top: 5px;
 }
 .exp-img{
-    background-image: url('./images/icon1.png');
+    background-image: url('https://i.postimg.cc/6367ZYJF/icon1.png');
     background-size: cover;
     width: 60px;
     aspect-ratio: 1;
@@ -381,7 +381,7 @@ h1{
     display: none;
     background-color: aqua;
     border-radius: 50%;
-    background-image: url('./images/passportimage.jpg');
+    background-image: url('https://i.postimg.cc/9XZMf67z/passportimage.jpg');
     background-size: 100%;
     background-position: center top;
 }
