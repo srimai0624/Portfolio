@@ -51,7 +51,7 @@ h1{
     text-align: center;
 }
 .background-image{
-    background-image: url('/images/wallpaper.jpg');
+    background-image: url('images/wallpaper.jpg');
     background-size: cover;
 }
 
@@ -144,7 +144,7 @@ h1{
     height: 350px;
     width:350px;
     border-radius: 50%;
-    background-image: url('/images/passportimage.jpg');
+    background-image: url('images/passportimage.jpg');
     background-size: 100%;
     background-position: center top;
     margin-right: 30px;
